@@ -9,11 +9,53 @@
 /* GLOBAL STYLES
 __________________________*/
 
-body {
+html {
   font-family: "Lexend Exa", sans-serif;
-  font-size: 18px;
-  background-color: #696969;
 }
 
-/* HEADER & FOOTER
-__________________________*/
+body {
+  font-size: 18px;
+  background-color: #d6d6d6;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+p > a {
+  text-decoration: none;
+  color: black;
+}
+
+.name {
+  float: left;
+  margin-left: 2.5%;
+}
+
+.about {
+  float: right;
+  margin-right: 2.5%;
+}
+
+div {
+  clear: both;
+}
+
+/* .gal {
+  max-width: 1020px;
+  margin: 0 auto;
+} */
+
+img {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2.5%;
+  color: black;
+  font-weight: 100;
+}
